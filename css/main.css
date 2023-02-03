@@ -88,15 +88,22 @@ body {
   padding: 50px 0;
 }
 
-.subVisual .inner {
+.subVisual .subinner {
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  justify-content: space-between;
+
   flex: 1;
+  flex-wrap: wrap;
 }
 
 .subVisual .left {
   display: flex;
+  width: 600px;
   background: #ff5b28;
   line-height: 80px;
-  padding: 50px 25px;
+  padding: 50px 55px;
   gap: 10px;
   color: #fff;
   border-radius: 50px 0 50px 50px;
@@ -133,8 +140,9 @@ body {
 .subVisual .right {
   display: flex;
   background: #780997;
+  width: 580px;
   line-height: 60px;
-  padding: 50px 25px;
+  padding: 50px 55px;
   gap: 10px;
   color: #fff;
   border-radius: 0 50px 50px 50px;
@@ -207,7 +215,7 @@ body {
 
 .menu_slide {
   position: relative;
-  padding: 50px 0;
+  padding: 0 0 80px 0;
 }
 
 .menu_slide img {
