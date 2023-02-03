@@ -1,5 +1,4 @@
 $(function () {
-  AOS.init();
   $(".main_slide").slick({
     arrows: false,
     dots: true,
@@ -65,4 +64,5 @@ $(function () {
   $(".arrows .xi-arrow-right").on("click", function () {
     $(".menu_slide").slick("slickPrev");
   });
+  AOS.init(true);
 });
